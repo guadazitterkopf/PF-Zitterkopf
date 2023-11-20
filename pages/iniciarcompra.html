@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="../multi/favicon.ico" type="image/png">
+    <title> La Pochoclería</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg estiloPropio">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="logoNav" src="../multi/Logo2.png" alt="logoNav"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu estiloProductos">
+                      <li><a class="dropdown-item" href="./productos.html">Coleccionables</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./golosinas.html">Golosinas</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./iniciarcompra.html">Iniciar Compra</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <h1> Cómo comprar </h1>
+        <h3 class="subtitulos"> Seguí los siguientes pasos </h3>
+        <ol>
+            <li>Elegí el producto de La Pochoclería que queres comprar en la sección de Productos.</li>
+            <li>Hacé click en el botón "Comprar". Ese botón te llevará al inicio de tu compra.</li>
+            <li>Completá el cuestionario ingresando la dirección donde deseas recibir el pedido y los datos requeridos.</li>
+            <li>Finalmente chequeá la información de compra y pulsá en "Hacer Pedido".</li>
+            <li>Podés tambien llenar el formulario opcional de contacto para recibir información exclusiva 
+            sobre todos tus pedidos.</li>
+        </ol>
+        <br>
+        <div class="mx-auto" style="width: 500px;">
+            <h3> Completá el siguiente formulario </h3>
+        </div>
+        <form class="formu">
+            <div class="mb-3">
+                <label for="Text" class="form-label">Nombre del Cliente</label>
+                <input type="text" id="disabledTextInput" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="Text" class="form-label">Código Postal</label>
+                <input type="text" id="disabledTextInput" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="Text" class="form-label">Dirección</label>
+                <input type="text" id="disabledTextInput" class="form-control">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Acepto Términos y Condiciones</label>
+            </div>
+            <button type="submit" class="btn botones">Hacer Pedido</button>
+          </form>
+
+    </main>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <h5> NAVEGACIÓN </h5>
+                <br>
+                <ul class="footer__listas">
+                    <li> <a href="../index.html"> Inicio </a> </li>
+                    <li> <a href="./productos.html"> Productos </a> </li>
+                    <li> <a href="./contacto.html"> Contacto </a> </li>
+                    <li> <a href="./iniciarcompra.html"> Iniciar Compra </a> </li>
+                    <br>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <h5> CONTACTANOS </h5>
+                <br>
+                <ul class="footer__listas--repronto">
+                    <li>4287-5063</li>
+                    <li>pochoclosdeliveryfciovarela@gmail.com</li>
+                    <li>Envíos por medio de <a href="https://repronto.com.ar/" target="_blank"> RePronto </a></li>
+                    <br>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+                <h5> REDES SOCIALES </h5>
+                <br>
+                <ul class="footer__listas">
+                    <li> <a href="https://www.instagram.com/pochoclosdeliveryfciovarela/" target="_blank"> Instagram </a></li>
+                    <li> <a href="https://www.facebook.com/pochoclosdelivery.florenciovarela/" target="_blank"> Facebook </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+</body>
+</html>
