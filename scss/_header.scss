@@ -1,0 +1,26 @@
+header{
+    .estiloPropio{
+        background-color: $rojoVibrante;
+        li{
+            &:hover{
+                background-color: $rojoOscuro;
+                border-radius: 5px;
+                color: $letraClara;
+            }
+        }
+    }
+    nav{
+        .logoNav{
+            width: 200px;
+        }
+    }
+    .estiloProductos{
+        border: none;
+        border-radius: 10px;
+        margin: 10px 10px;
+        background-color: $rojoVibrante;
+        &:hover{
+            background-color: $rojoOscuro;
+        }
+    }
+}

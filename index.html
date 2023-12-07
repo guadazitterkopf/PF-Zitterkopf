@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link a libreria de AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- link a estilo propio -->
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
     <link rel="icon" href="multi/favicon.ico" type="image/png">
-    <title>La Pochoclería</title>
+    <meta name="description" content="Pochoclos recién hechos, deliciosos y de calidad premium. La Pochocleria es el lugar perfecto para disfrutar de los mejores pochoclos en Florencio Varela.">
+    <title> La Pochoclería - Más que pioneros </title>
 </head>
 <body>
     <header>
@@ -29,9 +33,9 @@
                       Productos
                     </a>
                     <ul class="dropdown-menu estiloProductos">
-                      <li><a class="dropdown-item" href="./pages/productos.html">Coleccionables</a></li>
+                      <li><a class="dropdown-item text-light" href="./pages/productos.html">Coleccionables</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="./pages/golosinas.html">Golosinas</a></li>
+                      <li><a class="dropdown-item text-light" href="./pages/golosinas.html">Golosinas</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -48,7 +52,7 @@
         <div class="row">
             <div class="col-12 pt-5">
                 <h2 class="pb-5"> Llevando pochoclos a la puerta de tu casa hace más de 15 años </h2>
-                <section class="mx-auto" style="width: 200px;"> 
+                <section class="mx-auto" style="width: 200px;" data-aos="zoom-in"> 
                     <img class="logo" src="./multi/Logo1.png" alt="Logo La Pochoclería">
                 </section>
                 <h1> Más que pioneros </h1>
@@ -56,7 +60,7 @@
             <div class="col-lg-6 col-sm-12 col-xs-12">
                 <h3 class="pt-5"> Nuestra Historia </h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsum rerum molestias natus deserunt libero aperiam impedit, beatae enim, veritatis quasi incidunt expedita voluptas unde illo, ad cupiditate! Voluptatum perferendis, quisquam vel eius harum dicta odio repudiandae suscipit inventore quo dolore, ipsam corrupti dolores saepe doloremque ipsum in! Numquam illum culpa non. Magni, enim cum ipsa aliquam suscipit fuga atque ad alias veritatis reiciendis maxime dolore recusandae amet asperiores! Temporibus commodi cupiditate mollitia totam nostrum qui voluptates, voluptate consequatur. 
+                  La Pochocleria es un emprendimiento familiar que lleva más de 15 años enviando pochoclos por delivery en Florencio Varela, provincia de Buenos Aires. El negocio nació de la pasión por lo dulce, prestando máxima atención a la calidad de nuestros productos y al servicio personalizado a cada cliente. Los pochoclos son elaborados con ingredientes frescos y de primera calidad, y el delivery se realiza en el menor tiempo posible para que los reciban recién hechos. También vendemos por retiros en nuestro local, ubicado en el centro de la ciudad.
                 </p>
             </div>
             <div class="col-lg-6 col-sm-12 col-xs-12">
@@ -130,5 +134,7 @@
     </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
 </body>
 </html>

@@ -1,0 +1,50 @@
+@import "variables";
+@import "footer";
+@import "header";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $grisFondo;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    color: $letraOscura;
+    h1{
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        padding: 30px;
+    }
+    h2{
+        text-align: center;
+        padding: 30px;
+    }
+    .subtitulos{
+        margin: 0 15px;
+    }
+    .logo{
+        width: 200px;
+    }
+    .botones{
+        background-color: $rojoOscuro;
+        color: $letraClara;
+        border: none;
+        border-radius: 10px;
+        &:hover{
+            background-color: $rojoVibrante;
+            color: $letraClara;
+            transform: scale(1.1,1.1)
+        }
+    }
+    .formu{
+        width: 500px;
+        margin:20px auto;
+        border: solid #000000 2px;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+}

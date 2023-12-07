@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
     <link rel="icon" href="../multi/favicon.ico" type="image/png">
-    <title> La Pochoclería</title>
+    <meta name="description" content="En la página Contacto, puedes encontrar toda la información que necesitas para comunicarte con La Pochocleria.¡Estamos aquí para ayudarte!">
+    <title> Contacto| La Pochoclería</title>
 </head>
 <body>
     <header>
@@ -29,9 +30,9 @@
                       Productos
                     </a>
                     <ul class="dropdown-menu estiloProductos">
-                      <li><a class="dropdown-item" href="./productos.html">Coleccionables</a></li>
+                      <li><a class="dropdown-item text-light" href="./productos.html">Coleccionables</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="./golosinas.html">Golosinas</a></li>
+                      <li><a class="dropdown-item text-light" href="./golosinas.html">Golosinas</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -43,42 +44,33 @@
               </div>
             </div>
           </nav>
-
-        <h1> Contacto </h1>
     </header>
     <main>
-        <h3> Completá el siguiente formulario </h3>
-        <form action="#">
-            <div>
-                <label for="name"> Escribe tu nombre </label>
-                <input type="text" name="name">
+        <h1> Contacto </h1>
+        <h2> Completá el siguiente formulario </h2>
+        <form class="formu">
+            <div class="mb-3">
+                <label for="Text" class="form-label">Nombre del Cliente</label>
+                <input type="text" id="disabledTextInput" class="form-control">
             </div>
-            <br>
-            <div>
-                <label for="surname"> Escribe tu apellido </label>
-                <input type="text" name="surname">
+            <div class="mb-3">
+                <label for="Text" class="form-label">Apellido del Cliente</label>
+                <input type="text" id="disabledTextInput" class="form-control">
             </div>
-            <br>
-            <div>
-                <label for="mail"> Escribe tu correo electrónico</label>
-                <input type="email" name="email" required>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-            <br>
-            <div>
-                <label for="password"> Contraseña </label>
-                <input type="password" name="password" required>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <br>
-            <div>
-                <label for="sex"> Genero </label>
-                <input type="radio" name="sex" value="muj"> Mujer
-                <input type="radio" name="sex" value="hom"> Hombre
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1"> ¿Desea recibir anuncios de todas nuestras novedades? </label>
             </div>
-            <br>
-            <div>
-                <input type="submit" name="submit">
-            </div>
-        </form>
+            <button type="submit" class="btn botones"> Enviar</button>
+          </form>
     </main>
     <footer class="container-fluid">
         <div class="row">

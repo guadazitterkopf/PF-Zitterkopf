@@ -1,0 +1,38 @@
+footer{
+    text-align: center;
+    background-color: #232323;
+    color: $letraClara;
+    padding: 70px 0;
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div{
+        .footer__listas{
+            list-style-type: none;
+            li a{
+                text-transform: capitalize;
+                color: $letraClara;
+                text-decoration: none;
+                &:hover{
+                    color: $grisFondo;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    div{
+        .footer__listas--repronto{
+            list-style-type: none;
+            text-transform: capitalize;
+            color: $letraClara;
+            li a{
+                color: $aquaRePronto;
+                text-decoration: none;
+                &:hover{
+                    color: $naranjaRePronto;
+                }
+            }
+        }
+    }
+}
